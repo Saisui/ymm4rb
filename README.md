@@ -16,13 +16,14 @@ ymmp = YMM4::Project.load_file(".ymmp")
  # #<YMM4::Project 1920x1080 60fps 48000Hz len: 3:56
  #    from: ".ymmp">
 ymmp.set_fps(144).rescale(2)
-
+```
 ### USAGE:
-  ymmp = YMM4::Project.load_file("test.YMM4")
-  #=> #<YMM4 1920x1080 30fps 48000Hz 3:56
-  #    from: "D:/test.ymmp">
-  ymmp.set_fps(144).rescale(2)
-  #=> #<YMM4::Project 3840x2160 144fps 3:56...>
+```ruby
+ymmp = YMM4::Project.load_file("test.YMM4")
+#=> #<YMM4 1920x1080 30fps 48000Hz 3:56
+#    from: "D:/test.ymmp">
+ymmp.set_fps(144).rescale(2)
+#=> #<YMM4::Project 3840x2160 144fps 3:56...>
 ```
 ### 导出工程 :: Output a ymmp
 ```ruby

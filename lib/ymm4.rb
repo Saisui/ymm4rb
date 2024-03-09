@@ -38,6 +38,9 @@ class YMM4::Project
     @body = self.class.h2os(hash)
   end
 
+
+  # Reset the FPS of Project.
+  # Applied for Items' `Length`, __Start Time__`Frame`.
   def set_fps new_fps, make_chara: false
     ori_fps = @body.Timeline.VideoInfo.FPS
     @body.Timeline.VideoInfo.FPS = new_fps
@@ -48,6 +51,7 @@ class YMM4::Project
     end
     self
   end
+
   def set_wxh width, height, scale_mode: :min
     scale_mode = scale_mode.to_s
 
@@ -70,6 +74,10 @@ class YMM4::Project
     end
     self
   end
+
+  # rescale YMMP resolution by rate.
+  # apply for Every Items' `X`, `Y`, `Zoom`.
+  # if `make_chara: false`, then Characters Attributes won't be change.
   def rescale scale_rate, make_chara: true
     ymmp = self
     ymmp.body.Timeline.VideoInfo.Width *= scale_rate
