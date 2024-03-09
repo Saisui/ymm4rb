@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.email = ["kozmozenjel@outlook.com"]
 
   spec.summary = "A solution for reset FPS and Resolution of YMM4 project"
-  spec.description = "A YukkuriMovieMaker Utils. ゆっくりムービーメーカー4"
+  spec.description = "A YukkuriMovieMaker Utils. ゆっくりムービーメーカー4. Yukkuri Movie Maker"
   spec.homepage = "https://www.github.com/saisui"
   spec.license = "GPL-3"
   spec.required_ruby_version = ">= 3.0.0"
