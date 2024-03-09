@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require "ymm4"
+require "YMM4"
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure

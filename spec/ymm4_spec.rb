@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
-RSpec.describe Ymm4 do
+RSpec.describe YMM4 do
   it "has a version number" do
-    expect(Ymm4::VERSION).not_to be nil
+    expect(YMM4::VERSION).not_to be nil
   end
 
   it "does something useful" do
