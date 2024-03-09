@@ -28,7 +28,7 @@ require 'ostruct'
 # #### Change All Items' Font Size
 #
 #   ymmp.body.Timeline.Items.each do |item|
-#     item["fontSize"].Values[0].Value *= 2
+#     item.FontSize.Values[0].Value *= 2
 #   end
 #
 module YMM4
