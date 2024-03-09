@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require_relative "YMM4/version"
+require_relative "ymm4/version"
 
 module YMM4
   class Error < StandardError; end
